@@ -1,65 +1,89 @@
-import Image from "next/image";
+"use client";
+
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+      {/* Header */}
+      <header className="border-b border-slate-700/50 bg-slate-900/50 backdrop-blur-md sticky top-0 z-50">
+        <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+          <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+            📁 FileShare
+          </div>
+          <div className="hidden sm:flex gap-6">
+            <Link href="/upload" className="text-slate-300 hover:text-white transition">
+              Upload
+            </Link>
+            <Link href="/download" className="text-slate-300 hover:text-white transition">
+              Download
+            </Link>
+          </div>
+        </nav>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        {/* Hero Section */}
+        <div className="text-center mb-20">
+          <div className="mb-8">
+            <div className="text-6xl sm:text-7xl mb-6 animate-bounce">📤</div>
+            <h1 className="text-5xl sm:text-6xl font-bold text-white mb-6 leading-tight">
+              Fast & Secure
+              <span className="block bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+                File Sharing
+              </span>
+            </h1>
+            <p className="text-xl sm:text-2xl text-slate-300 max-w-2xl mx-auto mb-8">
+              Upload files instantly and share them securely. No registration needed, completely free.
+            </p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+
+        {/* Feature Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-lg p-8 border border-slate-600/50 hover:border-blue-500/50 transition group">
+            <div className="text-4xl mb-4 group-hover:scale-110 transition">⚡</div>
+            <h3 className="text-xl font-bold text-white mb-2">Lightning Fast</h3>
+            <p className="text-slate-300">Upload and download files at blazing speeds with our optimized infrastructure.</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-lg p-8 border border-slate-600/50 hover:border-purple-500/50 transition group">
+            <div className="text-4xl mb-4 group-hover:scale-110 transition">🔒</div>
+            <h3 className="text-xl font-bold text-white mb-2">Secure</h3>
+            <p className="text-slate-300">Your files are protected with encryption and secure cloud storage.</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-lg p-8 border border-slate-600/50 hover:border-green-500/50 transition group">
+            <div className="text-4xl mb-4 group-hover:scale-110 transition">✨</div>
+            <h3 className="text-xl font-bold text-white mb-2">Easy to Use</h3>
+            <p className="text-slate-300">Simple drag-and-drop interface. No complex settings or technical knowledge required.</p>
+          </div>
+        </div>
+
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Link
+            href="/upload"
+            className="px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold rounded-lg transition transform hover:scale-105 shadow-lg"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            🚀 Upload File
+          </Link>
+          <Link
+            href="/download"
+            className="px-8 py-4 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold rounded-lg transition transform hover:scale-105 shadow-lg"
           >
-            Documentation
-          </a>
+            📥 Download File
+          </Link>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="border-t border-slate-700/50 bg-slate-900/50 backdrop-blur-md mt-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-slate-400">
+          <p>© 2026 FileShare. Fast, secure, and simple file sharing.</p>
+        </div>
+      </footer>
     </div>
   );
 }
