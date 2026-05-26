@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.33.2",
-
+  "type": "module",
   "scripts": {
     "dev": "pnpm -r dev",
     "build": "pnpm -r build",
     "lint": "pnpm -r lint",
     "clean": "rm -rf node_modules pnpm-lock.yaml"
   },
-
   "devDependencies": {
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "cloudinary": "^2.10.0"
   }
 }
