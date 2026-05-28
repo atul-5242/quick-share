@@ -1,6 +1,7 @@
 "use client"
 
-import { FormEvent, useState, ChangeEvent } from "react";
+import type * as React from "react";
+import { useState, ChangeEvent } from "react";
 
 type UploadResult = {
   url: string;
@@ -41,7 +42,7 @@ export default function UploadPage() {
     }
   }
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError(null);
     setResult(null);

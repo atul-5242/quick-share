@@ -25,7 +25,7 @@ export async function POST(request: Request) {
       }
 
       if (incomingFile instanceof File) {
-        uploadTarget = await fileToDataUri(incomingFile);
+        uploadTarget = await fileToDataUri(incomingFile); // here need to convert the file to a data URI for Cloudinary upload as a string i think so okay.
       } else if (typeof incomingFile === "string") {
         uploadTarget = incomingFile;
       } else {

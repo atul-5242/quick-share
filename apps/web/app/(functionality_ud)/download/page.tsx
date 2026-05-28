@@ -1,6 +1,7 @@
 "use client"
 
-import { FormEvent, useState } from "react";
+import type * as React from "react";
+import { useState } from "react";
 
 export default function DownloadPage() {
   const [publicId, setPublicId] = useState("");
@@ -8,15 +9,15 @@ export default function DownloadPage() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setError(null);
-    setDownloadUrl("");
+async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  event.preventDefault();
+  setError(null);
+  setDownloadUrl("");
 
-    if (!publicId.trim()) {
-      setError("Please enter the public ID from the upload result.");
-      return;
-    }
+  if (!publicId.trim()) {
+    setError("Please enter the public ID from the upload result.");
+    return;
+}
 
     setLoading(true);
     const response = await fetch("/api/cloudinary_download", {
@@ -25,7 +26,7 @@ export default function DownloadPage() {
       body: JSON.stringify({ public_id: publicId.trim() }),
     });
 
-    const data = await response.json();
+    const data = await response.json(); 
 
     if (!response.ok) {
       setError(data?.error || "Failed to fetch download URL.");
