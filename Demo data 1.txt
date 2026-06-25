@@ -1,148 +1,778 @@
+GxP Training - Meeting Recording - Day1
+
+0:02
 Important foundational concepts related to the regulatory industries like especially on the life science, health care and pharmaceutical domains, how we operate based on the guidelines and regulations, that is what we are going to see today.
+
 0:18
-0 minutes 18 seconds
 So as part of day one we are covering verification and validation testing, what is GXP and its purpose and then the consequences of non compliance and 21 CFR part 11 guidelines and finally the GAMT 5 and its categories.
+
 0:36
-0 minutes 36 seconds
 So first one is the verification testing.
+
 0:39
-0 minutes 39 seconds
 So basically like verification validation always its kind of bit confusing what actually we do in verification and what we does in the validation testing.
+
 0:51
-0 minutes 51 seconds
 So we can see this with some examples also.
+
 0:53
-0 minutes 53 seconds
 So first thing is verification.
+
 0:55
-0 minutes 55 seconds
 So this is about checking whether we are building the system correctly according to the requirements.
+
 1:01
-1 minute 1 second
 So basically we state, we kind of state this in a line that are we building the product, right.
+
 1:07
-1 minute 7 seconds
 So basically verification focuses on reviewing the documents, designs and then the logics.
+
 1:13
-1 minute 13 seconds
 So without running any actual software, it just review the documentation and it also been performed in the early phase of the development cycle just to prevent the defects.
+
 1:25
-1 minute 25 seconds
 So common activities as part of this verification is like we do the requirement reviews and we kind of verify the design diagrams and conducting the code walkthroughs as well as validation of test cases.
+
+1:37
+So these are the basic activities we do as part of the verification testing and coming to the validation testing.
+
+1:47
+So this is about to ensure the system actually works as expected when we are going to use it in a real time.
+
+1:54
+So this will be called as like are we building the right product?
+
+1:58
+So this is a process of ensuring that system works correctly in a real world usage and meet the user needs.
+
+2:04
+So whatever the business expectations or the user needs, whether we are achieving it as part of the particular product or software, that is what we are ensuring as part of validation testing.
+
+2:15
+So it involves executing the software, testing all the real time scenarios and stimulating the actual behaviour to confirm the product functions as expected.
+
+2:25
+So it basically involves like unit testing, integration, system integration testing and then the user acceptance testing.
+
+2:32
+So this is about the validation.
+
+2:34
+So coming to an example, so lets say there is a requirement like we have to log into a system, maybe it can be an any application or anything with the proper user credentials.
+
+2:45
+So this is your requirement.
+
+2:47
+So as part of verification we need to ensure that whether the requirement is properly documented and the design supports the login page.
+
+2:56
+The way we kind of designed the username and password text boxes, everything and the code is written correctly.
+
+3:04
+This is what been validated in the verification testing and it when comes to the validation testing it ensures whether the user is able to login successfully with the system with the correct credentials and if there is any error occurs whether it it kind of breaks the validation or what is the failure it caused which makes the user unable to log into the application.
+
+3:26
+So this is what the difference between the verification and validation.
+
+3:30
+And basically verification focus on the process based things.
+
+3:34
+So it check correctness of the process what we follow and validation is about the product oriented.
+
+3:40
+So whether the product works as expected based on the intended use it supposed to do.
+
+3:46
+So very important thing is like verification prevent defects and validation detects defects.
+
+3:52
+So both are very essential and complement each other in the V model life cycle.
+
+4:00
+So next we will go on to the Gxp.
+
+4:04
+So Gxp is a set of guidelines used in a pharmaceutical, healthcare and life science industries to ensure the products are safe, high quality and reliable.
+
+4:14
+So the Gxp is kind of a guideline.
+
+4:17
+So there are variety of guidelines associated with Gxp and we are going to see some of the key guidelines as part of this session.
+
+4:25
+So the main purpose is to protect the patients, main maintain product quality and ensure that all the data generated during process is accurate, consistent and secure.
+
+4:36
+So the primary focus is like 3 things.
+
+4:39
+As part of G XP we need to consider its about the patient safety, product quality and data integrity.
+
+4:48
+So when it comes to patient safety, it should ensure the medicines or the devices should not harm the actual patients, the users.
+
+4:56
+And coming to the product quality, it ensures the standards are consistently met without any defects or contamination.
+
+5:03
+And coming to the data integrity part, so it ensures the data is trustworthy and properly maintained.
+
+5:09
+So these are the 3 key aspects G XP focuses on.
+
+5:13
+And it also kind of we have many regulatory borders.
+
+5:18
+So some of the regulations or guidelines created by some, I am just listing down some of the regulatory bodies here.
+
+5:26
+So one is the FTA, Food and Drug Administration.
+
+5:29
+So this is the regulatory body from the USA.
+
+5:32
+Then other one is International Council for Harmonization, ICH.
+
+5:36
+So these are some of the regulatory borders enforcing this GXP standards and guidelines.
+
+5:42
+So the core principles here of GXP.
+
+5:45
+So these are something like phraseability, accountability and data integrity.
+
+5:50
+So when it comes to traceability, so as part of it we will track who did what and when it is being done.
+
+5:57
+So something is being done by whom, who will be doing it and for what purpose it is being performed and when it was done.
+
+6:05
+So all this will be tracked.
+
+6:07
+And coming to the accountability part, so assigning the responsibility for every action, so whoever kind of contributing on that particular activity.
+
+6:16
+So we mean we need to identify and we need to involve their complete responsibilities for that particular action.
+
+6:23
+So that has been tracked and coming to the data integrity part, so which helps us to prevent the data manipulation and ensuring the secure, secure storage of the data.
+
+6:34
+So this these are the core principles we kind of follow as part of G XP, which helps us to ensure the transparency, reliability and compliance across all processes.
+
+6:48
+And moving on to the purpose of GXP.
+
+6:51
+So as I said, we have many guidelines as part of GXP.
+
+6:56
+So G stands for good and X is a variable.
+
+6:59
+So which we will see in the next, I mean, coming these things and pre stands for practices.
+
+7:07
+So here the variable X includes like the key things like manufacturing, laboratory and clinical.
+
+7:14
+So apart from that we also have some other practices like storage distribution review.
+
+7:21
+So the key things are like GMP, GCP and GLP.
+
+7:25
+So these are the standard guidelines basically set by the regulatory borders on manufacturing the product and when it undergo the laboratory test and it when it undergo the clinical trials.
+
+7:37
+So first we will see about the GMP.
+
+7:40
+So GMP is a good manufacturing practices.
+
+7:43
+So it focuses on ensuring the products like medicines are consistently manufactured with right quality by controlling raw materials, processes, equipments and labelling helping prevent issues like contamination or incorrect storage.
+
+7:59
+So when it comes to manufacturing, so we need we need to adhere with all the guidelines and standards set as part of GMP.
+
+8:07
+So basically starting with the raw materials and whatever the process we follow the manufacturing process and whatever the equipments we used and how we label the product and also kind of the contamination and storage.
+
+8:20
+So how much the dosage.
+
+8:22
+So for example, maybe take take a particular medication or something like that.
+
+8:28
+So whatever the amount of quantity or the dosage should be declared.
+
+8:32
+So that is the amount of ingredients we have to use as part of that particular product or a medicine.
+
+8:39
+So those kind of all those will be listed as part of the manufacturing guidelines.
+
+8:44
+So whoever the industries fall in the GMPI mean the manufacturing industries, they have to adhere with the GMP principles and then moving on to the GLP.
+
+8:56
+So GLP is a good laboratory practices.
+
+8:59
+So which kind of set the guidelines for laboratory testing.
+
+9:04
+So as part of laboratory testing we need to make sure whatever testing we does is accurate and reliable by controlling the procedures, whatever the equipments we use as part of the lab testing that we have to track it and whatever the samples we handle for the laboratory testing and the proper documentation.
+
+9:24
+So how we, I mean what are the things we used as part of the lab testing and how we document the results in the form of report.
+
+9:32
+So all this will be standardized in the GLP good laboratory practices so that the test results can be trusted.
+
+9:40
+And the next comes to the good clinical practices.
+
+9:43
+So GCP is something which involves the humans as part of the clinical trials.
+
+9:50
+So which ensures that the humans trials are conducted safely and ethically focusing on patient safety, informed concerned, proper procedures and accurate data recording.
+
+10:01
+Since we directly involve humans for the trials, we need to make sure we kind of ensure the safety of the humans and also whoever being involved as part of this trial, we need to get proper concern from them stating what what are all the things they have to undergo and they should be kept in complete monitoring as part of the trials and the proper procedures to be followed and whatever the trials we perform which will be recorded and reported appropriately.
+
+10:30
+So these are the guidelines we follow as part of the GCP and together these practices cover the entire drug life cycle.
+
+10:38
+So basically if you consider a drug, it starts with the GLP laboratory testing and then coming to the clinical trials which we will be tested on the humans.
+
+10:48
+So as part of laboratory, it will be tested in the animals and then as part of GCP, it will be tested in the humans as a human trial.
+
+10:55
+And finally if everything goes fine and it gets to the manufacturing phase.
+
+10:59
+So this 3 practices will cover the overall life cycle of a drug.
+
+11:05
+So which ensures the safety, quality and reliable at every stage of the manufacturing of a drug.
+
+11:11
+So we need to adhere with this major guidelines of what is being said by the regulatory industries.
+
+11:18
+So the key thing what we need to keep in mind is as part of GMP, if something is not being documented then it is something like we haven't done or we are not considering that as something we performed or done by someone.
+
+11:33
+So always if there is something happening it should be documented.
+
+11:37
+So that is the primary factor we need to consider as part of the GXP process so far.
+
+11:45
+Any questions team are we clear with what is GXP and what are all the guidelines which we discussed about?
+
+11:59
+Is there anything you want me to repeat or have any questions over there?
+
+12:09
+Team play make this as more interactive session.
+
+12:11
+It is not like other sessions, OK.
+
+12:14
+It is our specific to project and if you have even don't.
+
+12:18
+Don't think that is a very minor or basic question, you can ask anything here.
+
+12:23
+So our intention is to everyone should aware of G XP process and ready to start working on the project.
+
+12:36
+OK, I think so far good Laxmi, no questions.
+
+12:39
+Yeah, please proceed.
+
+12:41
+Yeah OK.
+
+12:43
+So the next one is the consequences of non compliance.
+
+12:47
+So lets say if some of the industries or the domain based organizations are not following the GXP process or they are not had hiring So what is the issue they see or how this non compliance affect in reality.
+
+13:05
+So non compliance is in GXP means like not following the required regulations, procedures or standards such as proper documentation, validation, accurate data recording and Sops.
+
+13:16
+So these are something kind of we are considering as a non compliance thing.
+
+13:20
+So basically it is a very serious thing because when we kind of not adhere with this guidelines or principles which directly impacts the patients because their their safety is come comes into the priority and also it affects the product quality and also the data integrating.
+
+13:39
+So this consequences can also lead to some regulatory actions.
+
+13:43
+So basically we can receive some warning letters from the regulatory authorities or there were there might be some inspections based on which we can get some regulatory actions like FDA 483 observations.
+
+13:57
+So this 483 is basically kind of a form issued by the FDA.
+
+14:03
+Maybe when they inspect the particular firm or an organization and they see whatever the food or related items being adulterred or something or kind of they are not being followed with whatever the guidelines been stated previously.
+
+14:18
+So they did not adhere with any of this guidelines then they might be issuing this form as part of their inspection and which will leads to the financial losses which may cause some fines, penalties and this leads to the rework also.
+
+14:33
+And because of which there might be some product recalls.
+
+14:36
+So whatever the product is released to the market will be recalled and whenever it's like maybe we see there is not safe for the patients, then it can be withdrawn from the market.
+
+14:47
+And also due to this company may also face some import restrictions because of this may be some of the products cannot be imported or exported from different countries, there may be restrictions issued.
+
+15:02
+And also this kind of leads to delay in the product approval.
+
+15:06
+So when we see this kind of issues, then we will not get approvals from the regulatory authorities on the products and which again kind of create poor product quality leading to the customer compliance.
+
+15:17
+So most importantly, this non compliance kind of can put patient safety at risk or saying any serious health issues.
+
+15:25
+It also leads to some legal actions, loss of repetition from the organization and there are some internal organization challenges too.
+
+15:33
+So overall compliance is mandatory thing we need to follow and maybe the failure of non compliance or the failure of compliance with Gxp guidelines will result in whatever things we saw before.
+
+15:46
+So it kind of impacts the patients business and from the growth perspective or company perspective it impacts the career.
+
+15:54
+So we we have to make sure we adhere with the compliance.
+
+15:59
+So and also we have some benefits like let's say if we are compliant with whatever the standards set by the regulatory bodies, then it helps us to ensure both regulatory adherence and strong business performance.
+
+16:13
+So overall when we kind of adhere with the guidelines, it kind of simplifies our approval process.
+
+16:21
+So we don't get into that product recall phase or thereby which may saving our cost and safeguarding whatever the operations performed by the organizations.
+
+16:31
+And also it enhances the companies reputation and by building trust with the regulator, customers and partners.
+
+16:38
+So overall GXP helps us to makes the organizations achieve the sustainable growth.
+
+16:44
+So making compliance is not just a requirement, but again it is a kind of strong business advantage for the pharma industries.
+
+16:54
+So this is something we need to ensure may be when we kind of in real time when we start working on the projects, make sure we adhere with the SO P standards, what has been set as part of each and every deliverable or an item.
+
+17:12
+So then comes to the 21 CFR part 11.
+
+17:15
+So this is one of the regulation framed by FDA, Food and Drug Administration.
+
+17:22
+So this is the regulation basically defines how the electronic records and signatures must be managed and to ensure that they are trustworthy and reliable as the paper records and also it equivalents to the digital, I mean equivalent to the handwritten signatures.
+
+17:39
+So basically this been introduced because organizations so kind of long ago we might have the current situation is like we are having everything in a digital format.
+
+17:51
+So long ago we have the information or a data captured as part of paper based systems.
+
+17:57
+So when we convert from the paper based to the digital systems, we are making sure to ensure the data reliability, security and traceability.
+
+18:07
+So basically this regulation helps us to achieve that we maintain all this as part of the electronic data and electronic signatures.
+
+18:16
+So this regulation ensures that electronic records are accurate, complete and secure that electronic signatures are legally valid.
+
+18:24
+So it structures into 3 main sections.
+
+18:26
+So we have a lot of subdivisions as part of 21 CFA part 11.
+
+18:31
+So we can high level discuss about the key sections, what we covering as part of the session.
+
+18:38
+So basically we have 3 sub parts.
+
+18:40
+The sub part A talks about the general provisions and sub Part B which will talk about what are all the guidelines or controls, what we need to follow as part of the electronic records.
+
+18:54
+So some of the examples like audit trial, how we protect the record, so data protection and all.
+
+19:00
+And then sub Part 3 will talk about the electronic signatures.
+
+19:03
+So whatever the rules or controls we follow as part of electronic signature implementation.
+
+19:08
+So this 3 will be mainly talking about the 21 CFR guideline.
+
+19:13
+So maybe when you have some time, you can Google in the FDA site, you can see the detailed description of what will cover in this 3 subparts and they will elaborate each and every regulation with whatever the example, some real time examples.
+
+19:30
+And also it gives you the key definition of what they are going to do as part of this regulation.
+
+19:37
+So key requirements.
+
+19:39
+So which includes like audit trial.
+
+19:41
+So basically audit trial is to kind of track changes.
+
+19:44
+So whatever changes been happened in the system, so who did that for what purpose it is being done and when it was done.
+
+19:51
+So everything has been tracked as part of the audit trial and implementing user access control.
+
+19:56
+So this is something like maybe if there is a restricted system or there is a controlled system, how we are going to implement the user access.
+
+20:05
+So there is it cannot be a open or maybe if it is a open system, it can be accessed through everyone.
+
+20:12
+So there there won't be any restrictions required.
+
+20:14
+But if it is a closed system, we need to implement the access control from the user login perspective.
+
+20:20
+And then the next one is about ensuring data integrity.
+
+20:24
+So this is basically like how we secure the data kind of someone might be using that data wrongly outside maybe.
+
+20:34
+So this kind of handles the patient details or drug information which is kind of a confidential.
+
+20:41
+So how we need to ensure that data security which has been I mean which has been said as part of this regulation.
+
+20:48
+And also the next thing is about how we secure the electronic signatures.
+
+20:53
+So, so how electronic signatures are kind of equivalent to the handwritten signatures.
+
+20:58
+So how we manage the digital signatures so without making any issues or maybe the signature should not be duplicated or something.
+
+21:07
+So in that case, what are all the necessary measures to be taken as part of the implementation?
+
+21:12
+And finally how we validate the system to confirm the proper functionality.
+
+21:16
+So overall how we validate the electronic records and signatures which is being implemented as part of that system.
+
+21:24
+So these are something will be explained in detail about the 21 CFR Part 11 regulation.
+
+21:35
+Any questions so far here before I jump into the next topic.
+
+21:46
+No, Lakshmi.
+
+21:48
+OK.
+
+21:51
+So the next one is about the GAM 5.
+
+21:54
+So GAM 5 is good automated manufacturing practices.
+
+21:59
+So previously we have something called GAM 4, then it was kind of enhanced into GAM 5.
+
+22:06
+So this is one of the guideline which is used in the pharma and life science industry to ensure the computerised system are reliable, compliant and properly validated.
+
+22:16
+So basically this guideline is kind of helping us to structure how we need to validate the particular system so or a software.
+
+22:25
+So how we need to validate the software or system in a structured way.
+
+22:29
+This helps us to guide the steps for the validation.
+
+22:34
+So this is needed because the system can handle critical data such as patient information, drug manufacturing details when where errors can directly affect the patient safety.
+
+22:45
+So because of this, it has a proper guideline being provided.
+
+22:49
+So where we need to ensure that we adhere with the guideline to validate the system properly.
+
+22:56
+So the key concepts of GAM 5.
+
+22:58
+So it is a risk based approach where the higher risk system require more testing and validation compared to the lower risk systems.
+
+23:06
+So wherever you see the high risk of validation or high criticality risk in the system, then it requires the more validation somewhere like may be the system does not have that much risk, then we, we can provide some less effort of validation rather than going for a complete validation there.
+
+23:26
+So, and the next one is about the 5 key principles which we kind of follow as part of this guideline, the product and process understanding.
+
+23:36
+So this talks about how we understand, like need to get an understanding or how the system works.
+
+23:44
+And we also should know what is the impact and quality and safety.
+
+23:50
+So based on how the system is operating and what what kind of impact we see on the quality and safety.
+
+23:55
+This is about the process and product understanding.
+
+23:59
+Then it comes to the life cycle approach.
+
+24:01
+So as part of this life cycle approach, we completely understand the system life cycle.
+
+24:08
+So here we follow how the system is designed, how it has been developed and how it has been tested and how it has been maintained.
+
+24:17
+So the complete life cycle approach will be followed here and the next comes to the scalable approach.
+
+24:23
+So this is about how we perform the validation based on the system complexity.
+
+24:29
+So as I said, if the system level of complexity increases, the effort we spend on validation also increase.
+
+24:38
+The next one is about the quality risk management.
+
+24:41
+So we identify the risk and focus more on the critical areas.
+
+24:45
+So basically as part of this, we identify the critical areas or risk factors as part of the system or a software, then we focus more over there.
+
+24:54
+So for the critical areas, we spent lot of additional testing to be done from the validation perspective.
+
+25:02
+And finally, it comes to the supplier involvement.
+
+25:05
+So where we kind of use the vendor documentation and also assess the supplier quality.
+
+25:10
+So whatever we received from the supplier, which will be validated and we can make use of their documentation.
+
+25:17
+So these are some key principles of GAM 5 and and we we can also see about the GAM 5 categories here.
+
+25:29
+So basically this GAM 5 category will be like something which helps us to classify the software or the system based on their complexity and the level of customization.
+
+25:40
+So based on which organization can decide whether how much effort or testing or validation we need to spend on that particular system.
+
+25:50
+So this helps us to categorise it into categorise our software into different categories.
+
+25:58
+So the classification supports a risk based approach.
+
+26:01
+So this is something like we have 4 categories here, category one which is the infrastructure software.
+
+26:08
+So basically it it talks about kind of operating systems or the database systems.
+
+26:14
+So we don't need to have any more rigorous validation here.
+
+26:19
+So this is basic thing.
+
+26:20
+So which will require minimal validation.
+
+26:24
+So as they are already tested by the vendors.
+
+26:26
+So these are something we are not going to test.
+
+26:28
+We just use it as it is.
+
+26:31
+And then the next category is the non configurable software.
+
+26:34
+So this is like we can say may be MSXL or some PDF or some some some of the standard configured softwares.
+
+26:46
+So these are something like requires a moderate validation.
+
 26:51
-26 minutes 51 seconds
 We don't need any intense validation to be performed as part of category 3 softwares.
+
 26:56
-26 minutes 56 seconds
 And then when it comes to the category 4 these are some configured softwares like SAP systems or some ERP systems.
+
 27:05
-27 minutes 5 seconds
 So where based on the business requirements, we might be doing some specific configurations which will increase the risk of the software.
+
 27:15
-27 minutes 15 seconds
 So we need to perform some high, high level of validation here.
+
 27:21
-27 minutes 21 seconds
 So which requires some additional validation.
+
 27:23
-27 minutes 23 seconds
 So whatever the softwares falls in this category, which will be kind of a configured software.
+
 27:29
-27 minutes 29 seconds
 And then coming to the category 5, this is a custom software which is like fully developed for a specific needs may be as an example for a particular project or a system, we are kind of implementing the software from the scratch.
+
 27:46
-27 minutes 46 seconds
 So that is bespoke or custom software.
+
 27:48
-27 minutes 48 seconds
 We say it's been developed from the beginning.
+
 27:51
-27 minutes 51 seconds
 So which kind of leads to a higher, higher level of validation because of its complexity and risk because it's been developed from the scratch.
+
 28:00
-28 minutes
 So where the validation or the risk level is high, so this kind of needs to complete validation.
+
 28:08
-28 minutes 8 seconds
 So you will follow the complete cycle starting from the concept phase till the IT, it just goes to the maintenance phase.
+
 28:17
-28 minutes 17 seconds
 So overall the key idea here is whatever the category, we kind of evaluate our software.
+
 28:23
-28 minutes 23 seconds
 So the higher the category, higher the risk and higher the validation effort.
+
 28:28
-28 minutes 28 seconds
 So maybe we if we fall into category one or category 3 wherein we are just making sure that most of the thing are like static, we are not going to make any configuration changes there.
+
 28:40
-28 minutes 40 seconds
 So it kind of falls into a least or low level of risk.
+
 28:45
-28 minutes 45 seconds
 So the validation would be very minimal when it comes to the higher category and higher the risk, the validation effort would be high.
+
 28:54
-28 minutes 54 seconds
 So ensuring the critical systems affects the patient safety and data integrity are thoroughly tested.
+
 29:00
-29 minutes
 So basically this will be categorised for category 4 and category 5.
+
 29:05
-29 minutes 5 seconds
 And in when it comes to the category 2, so this is basically a firmware.
+
 29:11
-29 minutes 11 seconds
 So this was part of GAM 4 previously and when we kind of enhanced into GAM 5, this was rescoped.
+
 29:18
-29 minutes 18 seconds
 So currently category 2 is not part of the guideline.
+
 29:21
-29 minutes 21 seconds
 I mean the camp 5 categories so we can its its been descoped.
+
 29:27
-29 minutes 27 seconds
 So these are the topics for day one kind of I am done with this session so far.
+
 29:35
-29 minutes 35 seconds
 You have any questions or any of the topics?
+
 29:38
-29 minutes 38 seconds
 Something you are kind of need some additional information or something is not clear?
+
 29:43
-29 minutes 43 seconds
 Need a repetitive thing again.
+
 29:59
-29 minutes 59 seconds
 Any questions, team?
+
 30:03
-30 minutes 3 seconds
 So you want to know anything?
+
 30:05
-30 minutes 5 seconds
 It is not clear.
+
 30:12
-30 minutes 12 seconds
 Can you go go back to that GCP screen?
+
 30:17
-30 minutes 17 seconds
 Yeah, yeah.
+
 30:39
-30 minutes 39 seconds
 So this GXP does not include GMP.
+
 30:44
-30 minutes 44 seconds
 We have.
+
 30:46
-30 minutes 46 seconds
 OK, yeah, got it.
+
 30:52
-30 minutes 52 seconds
 Do you have any questions on GCP&GMP?
+
 30:58
-30 minutes 58 seconds
 No, as of now this is going to the screen.
+
 31:16
-31 minutes 16 seconds
 Any more questions before closing this call for today?
+
 31:30
-31 minutes 30 seconds
 OK, so if no questions, yeah, let me stop the recording.

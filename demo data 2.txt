@@ -1,120 +1,1078 @@
+GxP Training - Meeting Recording - Day2
 
-0 minutes 2 seconds
+0:02
 Particular system and starting from concept phase till the retirement phase.
+
 0:07
-0 minutes 7 seconds
 So this is what we are going to see in a high level like what are all the different activities associated with each phase and stuff.
+
 0:21
-0 minutes 21 seconds
 So anyone have idea about what is computer system validations have you ever heard of?
+
 0:36
-0 minutes 36 seconds
 At least if no, I just want to hear from any of you.
+
 0:42
-0 minutes 42 seconds
 But I see most of the resources OK working on GXP projects also.
+
 0:47
-0 minutes 47 seconds
 So already experienced and working J&J project you should know what is CSV.
+
 0:51
-0 minutes 51 seconds
 So whether your answer is correct or not, try to attempt that.
+
 0:54
-0 minutes 54 seconds
 OK anyone anyone can answer?
+
 1:08
-1 minute 8 seconds
 OK, so let me go with that.
+
 1:10
-1 minute 10 seconds
 So basically computer system validation is kind of a process, they can say like a documented process which we which we are kind of used to document each and every evidence what has been performed as an action as part of the implementation of system.
+
 1:29
-1 minute 29 seconds
 So this process why we follow is it something like we need to ensure whatever the computer system or the software we are planning to implement or validate, right?
+
+1:39
+So it we are making sure that the system is working correctly, consistently and meets its intended purpose or the business need based on what is task that's part of the software or product.
+
+1:50
+So mainly this has been used in the regulatory industry such as pharma, pharmaceutical, healthcare and life sciences.
+
+1:57
+So basically as I said, this is kind of verifying and documenting the system performance and it also makes sure it is expected to be in compliance with the regulatory requirements and also it adheres with the Gxp standards.
+
+2:12
+So all this will come as a conclusion as computer system validation.
+
+2:17
+So the difference between the computer system validation and testing.
+
+2:22
+So basically in testing we ensure like whether a system is working correctly or we just validate the system stating that whether it performs maybe if I'm clicking on a particular button, whether it it does serving the purpose of that button or not.
+
+2:37
+And if if it didn't work properly, we may raise that as a defect.
+
+2:41
+So this is what we usually doesn't testing.
+
+2:44
+But whereas when it comes to CSV it is little broader.
+
+2:47
+So it is kind of covering the testing along with that it kind of proves try to prove whether the system is working correctly and it compliance with the regulatory requirements along with the testing of the how the functionality is working.
+
+3:01
+So basically when we kind of do testing, we kind of verify how the functionality works.
+
+3:08
+Maybe you can execute the test cases and identify defects.
+
+3:11
+That's how the testing activity is done.
+
+3:13
+And when it comes to CSV, it kind of covers the entire life cycle.
+
+3:18
+So starting from the planning phase and then requirement definition, how the system is being designed, how we are going to test that system.
+
+3:26
+So the testing phase and then followed by the documentation and maintenance.
+
+3:31
+So overall all this will be covered as part of CSV.
+
+3:35
+So based on whatever we discussed till now how we are going to implement that from product or a software perspective, right.
+
+3:45
+So yesterday we have seen the GAM 5 and its categories, right.
+
+3:50
+So we are following a risk based approach as part of GAM 5.
+
+3:54
+So in this we have GAM 5 computerised system life cycle approach.
+
+4:00
+So which was kind of based on the risk based framework.
+
+4:03
+They are trying to validate the computerised system into few different phases.
+
+4:08
+So that way they are covering the thorough life cycle of that system.
+
+4:13
+So this life cycle consists of 4 phases, concept phase, initiation phase or we can say assessment phase also.
+
+4:21
+It's a basic phase of the project kind of where it gets started.
+
+4:25
+And then the project phase where you kind of implement the system and next comes to the operation phase.
+
+4:31
+So once the software or a product kind of implemented and it is available in production and how we are going to have the operation or maintenance related to that, that is covered in the operation phase.
+
+4:44
+And final phase is the retirement phase where you are going to retire the system or you are going to replace or decommission whatever that will be handled in the retirement phase.
+
+4:54
+So we will see each and every phase in detail.
+
+4:58
+So first comes to the concept phase.
+
+5:00
+So as I said, this is a initial stage where we kind of identify what is the need of the system and what kind of compliance impact has been determined.
+
+5:12
+So we can also call this as an assessment phase.
+
+5:14
+So we kind of perform certain assessments as part of this concept phase.
+
+5:19
+So the first assessment what we do is GAM 5 assessment.
+
+5:25
+So basically so as per the categories what we saw yesterday in yesterday session, the Game 5 categories.
+
+5:31
+So we will kind of try to understand what is the category in which this product or software is going to fall.
+
+5:39
+So based on that we will define the category.
+
+5:42
+So first we will classify whether that software is a configured one or standard one or do we need to have any custom customization has to be performed as part of it.
+
+5:53
+Then we will identify what is the complexity of the hardware components and based on that we also determine the level of validation effort needed.
+
+6:02
+So this way we identify in which category this software will fall in.
+
+6:07
+And then next comes to the GXP impact assessment.
+
+6:11
+So over here we will identify whether the system is having impact against the product quality, patient safety and data integrity.
+
+6:19
+So that is one thing first we have to make sure whether it falls into the GXP part or not.
+
+6:26
+Maybe if it does not have any impact on any of this, we can count this as a non GXP or a low critical system.
+
+6:33
+But wherein if it is touching any of these 3 items then we have to see what is the level of impact whether it is low, medium or high.
+
+6:41
+Based on that we will determine the validation, how much of validation is being required.
+
+6:47
+So as I said, if if we have the impact of G XP on that particular software or a product, then we will just go with the qualification approach which we are going to discuss in the upcoming slides.
+
+7:00
+But if we are kind of identifying there is no impact on patient safety, product quality or data integrity, then we can go with the commissioning approach where we kind of just go with the installation configuration of that particular system and there won't be any GXP impact and it will follow the process what we have followed for the non GXP systems.
+
+7:24
+This is on the GXP impact assessment.
+
+7:26
+The 3rd one is about the electronic records and signatures.
+
+7:32
+So this assessment is basically kind of we identify whether a system is may be using the electronic records or signature, whether it complies with the regulatory requirements, So 21 CFR part 11.
+
+7:46
+So whether it is compliant with that particular requirement or not, we are going to validate that.
+
+7:51
+And based on that, we will identify like how the records are getting generated, how they are storing the records, how they are maintaining it, whether the approval process is being followed correctly, whether it is a manual process or it is electronically monitored.
+
+8:05
+So all this will be categorised and also we evaluate whether the security access related and audit trials and data integrity part has been handled kind of comply with the regulatory requirements or not.
+
+8:21
+Based on that, we will define the validations and controls whatever is needed.
+
+8:25
+So this is the outcome of ERES which means electronic records and electronic signature assessment.
+
+8:33
+The overall this phase will helps us to ensure there is based approach in a early phase like we will identify what kind of validation strategy we have to follow and based on which what kind of from the regulatory side, what are the things we have to consider and what all the activities to be planned just to implement this system or a software South.
+
+8:54
+This gives us the base input on where we where that software or product stands in and how we need to implement that and what is the approach to be followed.
+
+9:05
+So this gives the outcome of all 3 assessment based on which we will define the next phase.
+
+9:13
+So for any questions team in the concept stage.
+
+9:23
+So Lakshmi, this, this stage is only for to I mean, to make the products in different, different categories, right?
+
+9:33
+It's not different, different categories.
+
+9:35
+So let's say if you are taking whatever product you're going to implement, right?
+
+9:39
+So we will analyse whether that product falls in which category.
+
+9:43
+So yesterday when we are discussing, we were seeing certain things are like a course product configured software, certain things are like non configured or something to be customized kind of you have to develop from this scratch, right?
+
+9:55
+So based on that we will analyse whatever the software or product you're going to implement or create whether it falls in any of those categories or not.
+
+10:04
+Lets say if it is an operating system, it would be category one which is something you are not going to do anything just you are going to use it.
+
+10:11
+So you are not going to make any changes or configurations there.
+
+10:15
+So we are just going to use that.
+
+10:17
+So what level of validation required there it it would be very low and whether it is impacting your patient safety, product quality or data integrity that we have to verify and it will have a minimal impact because the category is low.
+
+10:31
+But if you are going for a software or a product where you are developing from the scratch, right, in that case where you will maybe as a team they will be developing lot of things as and configuration and related and all right.
+
+10:44
+So in that case you are kind of creating everything new which requires intense validation.
+
+10:50
+So in that case based on that your approach varies.
+
+10:53
+So here we are not make kind of inserting that software or product into a particular category.
+
+10:59
+We have to analyse in which category it will falls.
+
+11:02
+So based on that category it decides what level of testing is required here.
+
+11:06
+So then we will come to know the impact of the category, right.
+
+11:11
+So based on that we will understand OK, this is something we can directly use it or this something required proper testing before we make into our real use, right.
+
+11:21
+So based on that, we will categorise the softwares that is our first assessment as part of the concept phase.
+
+11:26
+OK, so the next one is about the project phase.
+
+11:39
+So this is the second phase right after the concept phase.
+
+11:42
+This mainly focuses on planning, preparation and the system implementation part.
+
+11:48
+So how we are going to implement the system.
+
+11:50
+So this phase completely covers the implementation part of the system right from how we create a plan, how we do the requirements and then the design, testing.
+
+12:02
+So all majority of things would be covered as part of this phase.
+
+12:06
+So this ensures like proper planning, supplier selection, requirement definition, validation strategy and the risk management of compliant system implementation.
+
+12:16
+So basically as I said the plan whatever the outcome we received from the concept phase.
+
+12:22
+So we will get an idea of what is the category of software and how we are going to use it.
+
+12:27
+So may be with that we will go for the supplier assessment.
+
+12:32
+So, so the first thing related to the supplier assessment is first we need to evaluate whether supplier, the supplier is ability to deliver a quality and compliance system.
+
+12:42
+So if you are kind of considering a parts product, then maybe whatever product is being delivered by the supplier, whether it is delivering with the quality or it is compliant with whatever regulated requirements we have.
+
+12:56
+And also we need to make sure the quality agreements are been in process before we are making use of that particular software or a product.
+
+13:05
+And finally, we also need to ensure whether whatever documentation prepared by the supplier, whether we are going to make use of it or we need to make some validation on top of it.
+
+13:16
+That is something we need to get it aligned before we move proceed, kind of move forward with the next step.
+
+13:23
+So this is on the supplier assessment part.
+
+13:25
+So the next comes to the validation plan.
+
+13:29
+So here we will provide like the high level overview of a system and here we define the strategy, approach and activities.
+
+13:37
+So what are all the things we are going to do as part of the complete system validation life cycle.
+
+13:44
+So this plan will define the overall view of what you are going to do, what are all the documents to be created, what are all the activities planned and what is the strategy testing strategy and approach to be followed and the roles and responsibilities.
+
+14:00
+Everything has been defined in the validation plan.
+
+14:02
+So currently I am explaining these all things in a high levels may be in the upcoming session you will be seeing how the planned document will be and how we will what are the things to be filled out as part of the document in detail.
+
+14:20
+And then followed by that in the project phase, we have something called a requirement phase.
+
+14:26
+So in the requirement phase where we are kind of setting the expectation so how the system should work or how the system should behave.
+
+14:35
+So all those are clearly defined through the functional requirements.
+
+14:39
+So which will describe the system capabilities along with non functional requirements like security, backup, restore, configuration, performance.
+
+14:46
+So here we will clearly define the requirements of the system so which we can call it as user requirements, design requirements and functional requirements and then come to the risk assessment.
+
+14:58
+So once we kind of finalised our requirement things, then we need to identify what is the potential risk associated with patient safety, product quality and data integrity.
+
+15:09
+So that is where we do this assessment.
+
+15:11
+So based on this assessment, we will determine what is the extent of documentation.
+
+15:16
+So based on the level of risk like high, medium, low.
+
+15:20
+So we will determine what kind of documentation to be prepared and how much of test cycles we need here and what is the level of testing you do.
+
+15:29
+Maybe if it has a low impact, we don't need to do a intense level of testing rather than having a critical impact.
+
+15:36
+So those all things will be decided as part of this risk assessment outcome.
+
+15:41
+And also we will define the mitigation strategies.
+
+15:44
+So which will help us to identify the risk and issues identified as part of this assessment.
+
+15:50
+And the primary focus will be on the critical areas so that we kind of plan proper testing and the level of testing will be little intense on the critical areas.
+
+16:02
+So that way we kind of do this risk assessment regular basis, not only in the initial phase.
+
+16:09
+So every time we see there is a requirement coming up or there is a modification of requirement, every time this risk assessment will be revisited.
+
+16:17
+So it is kind of a continuous process throughout the life cycle.
+
+16:26
+So then comes to the define design phase.
+
+16:29
+So in design phase its like we will kind of translating whatever the requirements we have as part of the created as part of requirement phase into the detailed design documentation.
+
+16:42
+So which I said like design specification.
+
+16:45
+So what are the things how we are going to create a software, how we perform the configuration.
+
+16:51
+So all those will be designed as part of design specification documents.
+
+16:56
+So which will include hardware and software details.
+
+16:59
+Sometimes it depends on how large the system is.
+
+17:02
+Sometimes they will combine hardware, software documentations into a single document.
+
+17:07
+But if it is a huge system or a complex system, then we will have a separate specification for hardware design as well As for the software design.
+
+17:15
+And there is a design review which will be conducted to verify the design, whether it meets the requirement standards or incorporates the risk assessment outcomes with the results documented in a design review report.
+
+17:28
+So as part of each and every activity, this review will be happened from in the design phase and it is being documented in a design review report.
+
+17:36
+On top of it, as part of the software development, the system is developed according to the predefined programming standards and also the code reviews are performed to identify and correct errors before it get into the formal testing phase.
+
+17:50
+So after that, so once the design review is done then we will get into the software development.
+
+17:55
+By then you need to implement your software as part of the predefined requirements from the design specification.
+
+18:02
+In that we will have the code reviews so wherein we identify if there are any errors or something to be updated as part of the code.
+
+18:09
+That way it helps us to identify things before we get into the formal testing phase.
+
+18:14
+So, the next comes to the testing phase.
+
+18:23
+So till now whatever we have seen as part of the concept phase as well as some of the different phases in the project phase.
+
+18:30
+So these are something majority in majority of projects, it would be kind of done by J&J side.
+
+18:38
+It's not something we get involved directly or we kind of participate in the documentation and deliverables.
+
+18:45
+But this is something we have to pay more attention to because this is where we actually start our kind of activities and tasks to be done everyday basis from the project perspective.
+
+18:57
+So this is a testing phase kind of it's a critical stage where the system is verified to ensure that it needs all the defined requirements and performs as intended in a controlled and compliant with all the regulatory requirements.
+
+19:11
+So this phase is kind of as I said, it is something like we have variety of specifications has been created as part of requirement phase which is URS, FS functional specification and DS is a design specification which are tested thoroughly.
+
+19:27
+You why are the qualification activities.
+
+19:30
+So we have 3 different qualifications here.
+
+19:33
+So one is the installation qualification which is IQ we can and then the second one is operational qualification OQ and 3rd one is the performance qualification.
+
+19:43
+So basically we validate all this requirement specifications as part of this qualifications.
+
+19:50
+So IQ, so installation qualification.
+
+19:53
+So this is something which verifies the system, including the hardware and software, whether it is correctly installed.
+
+20:00
+According to the approved specification.
+
+20:02
+So this will validate the design specification document.
+
+20:05
+So as part of IQ, we validate the design specification requirements and ensuring whatever the defined requirements and elements such as may be the configuration part or environment setup or how we are going to implement that infrastructure which are properly established or not.
+
+20:22
+So this is what we validate in the installation qualification followed by that the next qualification is operational qualification.
+
+20:31
+So this is something which is going to validate your FRS functional requirement specification.
+
+20:37
+So here system will validate the functional behaviour to confirm that all the features and controls operates as expected.
+
+20:45
+So based on whatever is being defined in your requirement specification it should work.
+
+20:50
+The functionality wise the system should behave and are the normal as well as some boundary conditions.
+
+20:55
+So based on whatever the criteria you are, you defined as part of the requirement which should work as expected and it also includes kind of testing of securities audit trials and different system workflows.
+
+21:08
+So functionality covers everything what is being defined in the requirements.
+
+21:12
+So this is what we validate in the operational qualifications and then comes to the performance qualification.
+
+21:19
+So performance qualification is something which which is like going to validate the user requirement specification.
+
+21:27
+So how the system is performing whether it is performing effectively in real business scenarios or this mostly done by the end users.
+
+21:35
+So from their real time usage they will be performing the user acceptance testing.
+
+21:41
+So which is called performance qualification.
+
+21:43
+So it ensures that the actual user process and consistently produce accurate and reliable results.
+
+21:49
+So we need to ensure whatever the business need and the application is at higher to that and it is kind of satisfying the business need which is declared in the U Rs document.
+
+22:03
+And in addition to this IQOQ&PQ, we also have few documentation or say deliverables as part of the testing phase.
+
+22:14
+So which will kind of include the test protocols and then the test script acceptance criteria and followed by that we will be having the traceability metrics also.
+
+22:26
+And as part of it, if may be as part of your testing you are observing some kind of issues or defects, how we are going to handle the defect process and the deviations and what would be the corrective and preventive actions.
+
+22:39
+So all this will conclude in the testing phase.
+
+22:43
+So basically this will be part of IQOQ&PQ since I am explaining you in a high level.
+
+22:49
+So wherein when we go with the next sessions, you will see those documents like how we are preparing the protocol or plan document and how we document our results in the report document.
+
+22:59
+And what is the process we follow as part of deviation or defect management.
+
+23:05
+How we document the issues and how we conclude or define the testing as part of the issue, what we are observing and what is the corrective and preventive actions will be taken against it.
+
+23:17
+So any questions on the testing phase team because this is something we should be tharav which helps us to work appropriately in the GXP projects?
+
+23:34
+So Laxmi, we have 3 qualifications, right, IQ, OQ and PQ and where I mean which are the phase in which we will be working.
+
+23:44
+So mostly we will be involved in OQ.
+
+23:47
+So IQ is like the installation thing.
+
+23:49
+So mostly it will be done by the development team, but it differs from project to project.
+
+23:54
+Sometimes IC testing team also supports an IQ, but primarily we will be into OQ and PQ.
+
+24:01
+So performance qualification usually done by the end users which is nothing but a UAIT testing.
+
+24:06
+So sometimes what happens, we kind of provide them the test scripts, maybe the execution will be done by them wherein we kind of assist them or support them during the executions.
+
+24:17
+Sometimes we also create test scripts or support them on from our perspective, what are the things they need that will be kind of created and provided by us.
+
+24:27
+From the OQ perspective, mostly this will be done by us which is a system or system integration testing.
+
+24:33
+So this is something where you verify all the functionalities related to that system.
+
+24:38
+So this is the major part.
+
+24:40
+It is done completely by the testing team.
+
+24:43
+So here it is mentioned like where as a validation environment.
+
+24:47
+So that is the test environment, right?
+
+24:50
+Yes, that is a formal environment where we where you are going to do the testing.
+
+24:54
+So all this IQOQ&PQ sometimes PQ kind of even that will be performed in test environment or there in some projects you know they will be having something like train or free production.
+
+25:07
+So before production there will be some environment just for the end users.
+
+25:12
+Sometimes they used to perform PQ there also.
+
+25:16
+But mostly all this 3 will be performed in the formal environment where which we call it as a validated environment or test environment where we do the formal testing of a particular software or application.
+
+25:29
+Is that answers your question?
+
+25:51
+Yeah.
+
+25:51
+Any other questions team before I move on to the next phase?
+
+26:11
+So respond at least please don't be on mute right?
+
+26:15
+We are not putting up this training for you know as we have plenty of time to talk to you right.
+
+26:23
+If everyone is on mute not speaking anything, you know.
+
+26:26
+that's, you know not a good sign at all.
+
+26:34
+Go ahead.
+
+26:35
+See we we have a huge audience, OK.
+
+26:37
+It is not like 5 or 10 members team.
+
+26:40
+So we have around 28 attendees here.
+
+26:44
+Please respond if you don't have any questions, just open unmute yourself and say it's clear, it's no questions.
+
+26:52
+So at least respond, be interactive.
+
+26:53
+It's already told yesterday it's not a LND training, it's a project specific training.
+
+26:59
+So we are all putting more effort to train you all here.
+
+27:05
+OK.
+
+27:05
+Yeah.
+
+27:07
+So tomorrow if you if you have been allocated into a GXP project and you are not able to perform as per the expectations, you know no one will come to your rescue, you know, even from the GXP SME group also.
+
+27:21
+So you need to resolve your things in the project.
+
+27:34
+Yeah, sorry, go ahead this.
+
+27:37
+Yeah, thank you.
+
+27:39
+So the next one is the operation phase.
+
+27:42
+So basically once we kind of implement our system or software as part of the project phase.
+
+27:48
+So we once the implementation is completed, we will release that to the production.
+
+27:54
+So after we release the infrastructure to the production.
+
+27:57
+So in future after release to production, how the system or something has been maintained.
+
+28:04
+So that is what we going to see in the operation phase.
+
+28:07
+So maybe the system may undergo some changes or there might be some enhancements.
+
+28:13
+So all those will be we need to monitor that and we need to document that and we need to maintain a system in a controlled state so that it preserves its validated status like so how we made it as part of the project phase.
+
+28:27
+So similarly, it should kind of comply with all the regulatory standards and regulatory requirements and GXP standard.
+
+28:34
+So we need to maintain the system.
+
+28:35
+So that is where this operation phase comes into the picture.
+
+28:40
+So we have certain process as part of this operation phase.
+
+28:43
+The first one is the change management.
+
+28:46
+So as part of this we are going to control and manage all the changes which they are planning to make as part of the system when it is into the operation phase.
+
+28:57
+So first thing is like we need to ensure whether whatever the changes, fixes or any upgrades, what we are planning whether it is assist and its approved and documented properly and then whatever the change we are going to apply to software or a hardware that configuration details should be documented.
+
+29:17
+The 3rd one we will evaluate what is the impact of the change.
+
+29:20
+So when you are going to make some changes as part of that system, what kind of impact it has, whether it changes any validation or it has any compliance impact that we are going to evaluate and ensure.
+
+29:33
+So based on that evaluation result, we are making sure whatever the changes we are implementing that should adhere with the regulatory requirements and that way we are maintaining the system in a controlled state.
+
+29:45
+So this is what we do as part of the change management.
+
+29:50
+Then then comes to the incident and deviation management.
+
+29:53
+So this is something a process where you identify, record and investigate the issues.
+
+30:00
+So whatever.
+
+30:02
+So once we kind of release the system right, it does not mean the system works as expected every time.
+
+30:08
+Maybe sometimes we can, we may come across certain issues or it may kind of create new problems which we haven't seen before.
+
+30:15
+So all those deviations or anomalies whatever we identify which has to be properly documented and we need to have a proper logging and tracking of those incidents and we need to identify the root cause and resolution for each issues.
+
+30:31
+So that way we kind of resolve them and again keep the system in a validated state.
+
+30:40
+And next comes to the configuration part.
+
+30:43
+So this is something we it helps us to identify and control the system based on the different versions of the system.
+
+30:52
+So whenever lets say if I am releasing a system or a software for the first time may be its version one and then as part of my change, change management or maybe I am going to make some upgrades or enhancements associated with that system, there might be multiple versions being created.
+
+31:09
+So how we are going to manage that and what is the baseline, I mean the approved baseline of that particular system and all those will be documented as part of it and whatever the controls which which we are going to make as part of the configuration changes so that documentations will be maintained.
+
+31:30
+And finally we need to make sure whatever the system we kind of configured as part of this ensure that the system can be restored to a validated state.
+
+31:40
+So at the end whatever the changes we are bringing in, either it can be part of change management or configuration or incident.
+
+31:48
+Basically the final thing should be we need to maintain the system in a validated state as per it should comply with the regulatory requirement and the standards what we follow as part of GX.
+
+32:01
+And then comes to the security management.
+
+32:04
+So security management, this is like a process which helps us to protect the systems and data controls based on the user access.
+
+32:13
+So whatever the user access we have provided as part of the system, that way we are not kind of allowing all the people to access it.
+
+32:22
+So like we are preventing the unauthorized access or loss or damage to the data, whatever the regulatory data we have.
+
+32:29
+And also we need to ensure the user access what we maintain should have the proper request approval process.
+
+32:37
+So maybe a particular user is being created and later on for some reason the user is leaving the project or maybe they are something they are removed kind of removed or how we are kind removing their user IDs.
+
+32:51
+So we need to have proper processes being followed as part of this user access management.
+
+32:56
+And it also run through the periodic access reviews to verify whether the appropriate permissions are granted to the users.
+
+33:03
+And the privileges granted to each user will be validated as part of the reviews which helps us to maintain the data integrity and also the system, system security as part of from the compliance perspective.
+
+33:20
+Then come to the backup restore.
+
+33:22
+So here this is about backup and restore basically it helps us to protect our system data may be from any laws or damage.
+
+33:33
+So that way we are able to restore the data quickly and then come to the disaster part.
+
+33:40
+So disaster requiry.
+
+33:41
+So this is something like which helps us to ensure that rapid requiry of a critical system.
+
+33:47
+So for some reason maybe the system gets collapsed or there is some loss of data or something.
+
+33:53
+This based on this plan what we have as part of disaster recovery which helps us to recover the critical systems during the major incidents and minimise the downtime of it.
+
+34:03
+So this helps us to achieve the minimum downtime and wherein sometimes because of this issues, we kind of be in a situation we cannot make use of the system so that timing will be reduced.
+
+34:16
+So we need to have the proper plans tested periodically to avoid this risk or issues at any phase.
+
+34:23
+So we need to have the periodic reviews done for this backup restore and disaster recovery as well and then comes to the periodic reviews.
+
+34:34
+So this is something which we conduct at a defined intervals to ensure the system remains in a validated states.
+
+34:41
+So this basically evaluate the overall system performance and this compliance status of that system whether the system is working as expected and it fit for its intended use.
+
+34:53
+So and also it identifies any issues or some observations then we also need to have a plan how we are going to take the corrective and preventive actions for that.
+
+35:05
+And this review is being performed frequently based on the criticality of the system.
+
+35:12
+So if it is a very complex system or may be high critical system, this reviews being performed frequently but for the low critical may be based on certain duration 2 or 3 years once we will have this reviews happened and then comes to the data archival and retrival.
+
+35:33
+So this is the process of securely storing and managing the data.
+
+35:37
+So sometimes whatever the data we have as part of the system.
+
+35:41
+So everyday we will not be going to use all the data what has been available in this system.
+
+35:47
+So sometimes the data will be kind of no longer active or maybe we are not using it for long time but rather we need it in future.
+
+35:56
+So how we are keeping that inactive data, how the storage is being maintained, whether it kind of maintains the regulatory compliance and data integrity and how we are following the record retention requirements.
+
+36:08
+So all this will be documented as part of the data and retrieval.
+
+36:17
+So this comes the final thing which is a retirement phase where we are going to decommission the system.
+
+36:24
+So basically whenever the system is kind of maybe we are going to demolish the system or terminating it or maybe sometimes we are going to merge a particular system with another system or replacing the existing system or a legacy system with a new design or something like that.
+
+36:44
+In that case, we need to have this decommissioned plan in place so that we ensure the controlled and compliant transition of the system from may be its own state to the next state whether you are terminating it or replacing it or you are merging with any existing system.
+
+37:03
+So this plan helps us to outline the activities such as protecting interface system, so archiving the system documentation addressing health and safety requirements and related to the data migration.
+
+37:16
+So how the data are archived and what is the record retention need here and it also ensure whether the record remain accessible throughout the period.
+
+37:25
+So if I say the record retention, maybe I am going to keep the record for next 10 years.
+
+37:32
+So whether the the for those 10 years I am able to access that record at any time.
+
+37:36
+So all those will be properly documented as part of this plan so that we we are ensuring the safe, documented and compliant withdrawal of the system.
+
+37:46
+So this is where the decommission of the system helps us to do this without any loss of data or the associated things with the particular software or a product.
+
+37:59
+So this is a final phase as part of the life cycle.
+
+38:04
+I think we are done with the session.
+
+38:06
+Any other questions team from this phase or the previous phases, what we discussed so far?
+
+38:22
+Not from my end.
+
+38:25
+Can you explain the concept page again?
+
+38:30
+What phase going on?
+
+38:31
+Concept phase, Yeah, OK.
+
+38:46
+So concept phase, right.
+
+38:48
+So this we can call it as the initiation phase or the assessment phase.
+
+38:53
+So basically this phase helps to identify whether a particular system has an impact to the patient safety, product quality and data integrity.
+
+39:03
+So we have variety of assessments being performed as part of this stage.
+
+39:07
+So in the initial assessment with which is related to the GAM 5 categories.
+
+39:12
+So here we will try to identify whether the software or product falls in which category.
+
+39:19
+So yesterday, in yesterdays session, we have seen different GAM categories, right.
+
+39:23
+So we will identify maybe if I take a particular application, whether this falls in category 1345, which category.
+
+39:32
+So based on that we will identify what is the approach being followed as part of the validation process.
+
+39:38
+That is the first assessment we do in the concept stage.
+
+39:41
+And then the second assessment is the Gxp impact assessment.
+
+39:45
+So whether the software has an impact on Gxp, which means that whether it impacts the patient, I mean patient safety, data quality, sorry, product quality or data integrity, whether it touches any of this and if it has an impact, what is the level of impact we see whether it is critical impact, medium impact, low impact.
+
+40:05
+So based on that, it helps us to define the approach how we need to follow the validation process, whether it is a qualification process or a decommissioning.
+
+40:15
+So if it has a medium and high impact, we will go with the qualification process and if it does not have any impact related to GXP, which means it's a non GXP system, then we will follow with the commissioning approach.
+
+40:27
+And the 3rd one comes to the electronic records and electronic signature assessment.
+
+40:32
+So here we will identify whether the system is kind of compliant with the regulatory requirements, 21 CFR Part 11 regulations which we discussed yesterday, right, kind of related to the general provisions, electronic records, electronic signatures and kind of if you go inside the subparts, we will see whether how the access controls are maintained for the system, how the audit trails are maintained.
+
+40:59
+Let's say if I am trying to access the system, do I have any user credentials and how frequently we are changing it, how we are distributing the credentials to different users.
+
+41:08
+So all this requirements are associated with 21 CFR part 11, whether that is been adhired here and we are compliant with that or not and what are all the requirements applicable for this software or product because we have lot of requirements with ERES, right.
+
+41:25
+So what are the things applicable to this software or a product.
+
+41:28
+So all this will be assessed here.
+
+41:30
+So based on this outcome which we will, which will help us to define how we need to perform the validation and how we are going to implement this system.
+
+41:41
+So that way it will help us to define the validation strategy and approach.
+
+41:45
+So based on this outcome of these assessments, is that clear or do you have any questions?
+
+41:56
+Yeah, got it.
+
+41:59
+OK.
+
 42:00
-42 minutes
 I think someone raised hand and then topped off that.
+
 42:05
-42 minutes 5 seconds
 Is it Vikita?
+
 42:08
-42 minutes 8 seconds
 Yeah.
+
 42:09
-42 minutes 9 seconds
 Hi, I actually I just take a like clicked on that place and I OK, yeah, TMC each day session OK, each day session is interlinked.
+
 42:24
-42 minutes 24 seconds
 So if you look at here Game 5 we discussed yesterday, each category is in detailed way.
+
 42:29
-42 minutes 29 seconds
 So if you understand that So what are the applications will falls under this category so that you can easily understand this concept phase.
+
 42:40
-42 minutes 40 seconds
 OK.
+
 42:40
-42 minutes 40 seconds
 So any more questions not from my can you please go to the testing plan?
+
 42:58
-42 minutes 58 seconds
 You mean the validation plan or you are talking about the testing phase?
+
 43:05
-43 minutes 5 seconds
 Testing phase, OK.
+
 43:16
-43 minutes 16 seconds
 What is your question, Vipul?
+
 43:27
-43 minutes 27 seconds
 Just I was making a note, Okay.
+
 43:39
-43 minutes 39 seconds
 And the 3rd one is performance, right?
+
 43:41
-43 minutes 41 seconds
 Yeah, Performance, qualification, good.
+
 43:48
-43 minutes 48 seconds
 So we will see in detail like how we get into each qualification phase, what is the entry, exit graded, everything we will see in the upcoming sessions.
+
 43:56
-43 minutes 56 seconds
 So this is in a high level.
+
 43:58
-43 minutes 58 seconds
 I'm just describing what are the phases we have and where we perform.
+
 44:03
-44 minutes 3 seconds
 All this may be specific to the qualification phase, where it we are entering the qualification phase and before that what what is happening and after qualification, what are the things we have.
+
 44:13
-44 minutes 13 seconds
 That is what we saw today.
+
 44:15
-44 minutes 15 seconds
 And in the upcoming sessions you will come to know how we do this in real time.
+
 44:20
-44 minutes 20 seconds
 So we will show some examples as well as how we what are the guidelines and other things what we need to follow as part of each and every phase and what is the entry and exit criteria for those phases.
+
 44:31
-44 minutes 31 seconds
 We will see it in detail.
+
 44:38
-44 minutes 38 seconds
 Understood.
+
 44:39
-44 minutes 39 seconds
 Thank you.
+
 44:40
-44 minutes 40 seconds
 Yeah.
+
 44:42
-44 minutes 42 seconds
 So Tim, anymore questions as a large sense for today?
+
 44:55
-44 minutes 55 seconds
 OK.
+
 44:55
-44 minutes 55 seconds
 So yeah.
+
 44:56
-44 minutes 56 seconds
 So please.
