@@ -1,0 +1,148 @@
+Important foundational concepts related to the regulatory industries like especially on the life science, health care and pharmaceutical domains, how we operate based on the guidelines and regulations, that is what we are going to see today.
+0:18
+0 minutes 18 seconds
+So as part of day one we are covering verification and validation testing, what is GXP and its purpose and then the consequences of non compliance and 21 CFR part 11 guidelines and finally the GAMT 5 and its categories.
+0:36
+0 minutes 36 seconds
+So first one is the verification testing.
+0:39
+0 minutes 39 seconds
+So basically like verification validation always its kind of bit confusing what actually we do in verification and what we does in the validation testing.
+0:51
+0 minutes 51 seconds
+So we can see this with some examples also.
+0:53
+0 minutes 53 seconds
+So first thing is verification.
+0:55
+0 minutes 55 seconds
+So this is about checking whether we are building the system correctly according to the requirements.
+1:01
+1 minute 1 second
+So basically we state, we kind of state this in a line that are we building the product, right.
+1:07
+1 minute 7 seconds
+So basically verification focuses on reviewing the documents, designs and then the logics.
+1:13
+1 minute 13 seconds
+So without running any actual software, it just review the documentation and it also been performed in the early phase of the development cycle just to prevent the defects.
+1:25
+1 minute 25 seconds
+So common activities as part of this verification is like we do the requirement reviews and we kind of verify the design diagrams and conducting the code walkthroughs as well as validation of test cases.
+26:51
+26 minutes 51 seconds
+We don't need any intense validation to be performed as part of category 3 softwares.
+26:56
+26 minutes 56 seconds
+And then when it comes to the category 4 these are some configured softwares like SAP systems or some ERP systems.
+27:05
+27 minutes 5 seconds
+So where based on the business requirements, we might be doing some specific configurations which will increase the risk of the software.
+27:15
+27 minutes 15 seconds
+So we need to perform some high, high level of validation here.
+27:21
+27 minutes 21 seconds
+So which requires some additional validation.
+27:23
+27 minutes 23 seconds
+So whatever the softwares falls in this category, which will be kind of a configured software.
+27:29
+27 minutes 29 seconds
+And then coming to the category 5, this is a custom software which is like fully developed for a specific needs may be as an example for a particular project or a system, we are kind of implementing the software from the scratch.
+27:46
+27 minutes 46 seconds
+So that is bespoke or custom software.
+27:48
+27 minutes 48 seconds
+We say it's been developed from the beginning.
+27:51
+27 minutes 51 seconds
+So which kind of leads to a higher, higher level of validation because of its complexity and risk because it's been developed from the scratch.
+28:00
+28 minutes
+So where the validation or the risk level is high, so this kind of needs to complete validation.
+28:08
+28 minutes 8 seconds
+So you will follow the complete cycle starting from the concept phase till the IT, it just goes to the maintenance phase.
+28:17
+28 minutes 17 seconds
+So overall the key idea here is whatever the category, we kind of evaluate our software.
+28:23
+28 minutes 23 seconds
+So the higher the category, higher the risk and higher the validation effort.
+28:28
+28 minutes 28 seconds
+So maybe we if we fall into category one or category 3 wherein we are just making sure that most of the thing are like static, we are not going to make any configuration changes there.
+28:40
+28 minutes 40 seconds
+So it kind of falls into a least or low level of risk.
+28:45
+28 minutes 45 seconds
+So the validation would be very minimal when it comes to the higher category and higher the risk, the validation effort would be high.
+28:54
+28 minutes 54 seconds
+So ensuring the critical systems affects the patient safety and data integrity are thoroughly tested.
+29:00
+29 minutes
+So basically this will be categorised for category 4 and category 5.
+29:05
+29 minutes 5 seconds
+And in when it comes to the category 2, so this is basically a firmware.
+29:11
+29 minutes 11 seconds
+So this was part of GAM 4 previously and when we kind of enhanced into GAM 5, this was rescoped.
+29:18
+29 minutes 18 seconds
+So currently category 2 is not part of the guideline.
+29:21
+29 minutes 21 seconds
+I mean the camp 5 categories so we can its its been descoped.
+29:27
+29 minutes 27 seconds
+So these are the topics for day one kind of I am done with this session so far.
+29:35
+29 minutes 35 seconds
+You have any questions or any of the topics?
+29:38
+29 minutes 38 seconds
+Something you are kind of need some additional information or something is not clear?
+29:43
+29 minutes 43 seconds
+Need a repetitive thing again.
+29:59
+29 minutes 59 seconds
+Any questions, team?
+30:03
+30 minutes 3 seconds
+So you want to know anything?
+30:05
+30 minutes 5 seconds
+It is not clear.
+30:12
+30 minutes 12 seconds
+Can you go go back to that GCP screen?
+30:17
+30 minutes 17 seconds
+Yeah, yeah.
+30:39
+30 minutes 39 seconds
+So this GXP does not include GMP.
+30:44
+30 minutes 44 seconds
+We have.
+30:46
+30 minutes 46 seconds
+OK, yeah, got it.
+30:52
+30 minutes 52 seconds
+Do you have any questions on GCP&GMP?
+30:58
+30 minutes 58 seconds
+No, as of now this is going to the screen.
+31:16
+31 minutes 16 seconds
+Any more questions before closing this call for today?
+31:30
+31 minutes 30 seconds
+OK, so if no questions, yeah, let me stop the recording.

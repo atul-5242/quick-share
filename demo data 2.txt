@@ -1,0 +1,120 @@
+
+0 minutes 2 seconds
+Particular system and starting from concept phase till the retirement phase.
+0:07
+0 minutes 7 seconds
+So this is what we are going to see in a high level like what are all the different activities associated with each phase and stuff.
+0:21
+0 minutes 21 seconds
+So anyone have idea about what is computer system validations have you ever heard of?
+0:36
+0 minutes 36 seconds
+At least if no, I just want to hear from any of you.
+0:42
+0 minutes 42 seconds
+But I see most of the resources OK working on GXP projects also.
+0:47
+0 minutes 47 seconds
+So already experienced and working J&J project you should know what is CSV.
+0:51
+0 minutes 51 seconds
+So whether your answer is correct or not, try to attempt that.
+0:54
+0 minutes 54 seconds
+OK anyone anyone can answer?
+1:08
+1 minute 8 seconds
+OK, so let me go with that.
+1:10
+1 minute 10 seconds
+So basically computer system validation is kind of a process, they can say like a documented process which we which we are kind of used to document each and every evidence what has been performed as an action as part of the implementation of system.
+1:29
+1 minute 29 seconds
+So this process why we follow is it something like we need to ensure whatever the computer system or the software we are planning to implement or validate, right?
+42:00
+42 minutes
+I think someone raised hand and then topped off that.
+42:05
+42 minutes 5 seconds
+Is it Vikita?
+42:08
+42 minutes 8 seconds
+Yeah.
+42:09
+42 minutes 9 seconds
+Hi, I actually I just take a like clicked on that place and I OK, yeah, TMC each day session OK, each day session is interlinked.
+42:24
+42 minutes 24 seconds
+So if you look at here Game 5 we discussed yesterday, each category is in detailed way.
+42:29
+42 minutes 29 seconds
+So if you understand that So what are the applications will falls under this category so that you can easily understand this concept phase.
+42:40
+42 minutes 40 seconds
+OK.
+42:40
+42 minutes 40 seconds
+So any more questions not from my can you please go to the testing plan?
+42:58
+42 minutes 58 seconds
+You mean the validation plan or you are talking about the testing phase?
+43:05
+43 minutes 5 seconds
+Testing phase, OK.
+43:16
+43 minutes 16 seconds
+What is your question, Vipul?
+43:27
+43 minutes 27 seconds
+Just I was making a note, Okay.
+43:39
+43 minutes 39 seconds
+And the 3rd one is performance, right?
+43:41
+43 minutes 41 seconds
+Yeah, Performance, qualification, good.
+43:48
+43 minutes 48 seconds
+So we will see in detail like how we get into each qualification phase, what is the entry, exit graded, everything we will see in the upcoming sessions.
+43:56
+43 minutes 56 seconds
+So this is in a high level.
+43:58
+43 minutes 58 seconds
+I'm just describing what are the phases we have and where we perform.
+44:03
+44 minutes 3 seconds
+All this may be specific to the qualification phase, where it we are entering the qualification phase and before that what what is happening and after qualification, what are the things we have.
+44:13
+44 minutes 13 seconds
+That is what we saw today.
+44:15
+44 minutes 15 seconds
+And in the upcoming sessions you will come to know how we do this in real time.
+44:20
+44 minutes 20 seconds
+So we will show some examples as well as how we what are the guidelines and other things what we need to follow as part of each and every phase and what is the entry and exit criteria for those phases.
+44:31
+44 minutes 31 seconds
+We will see it in detail.
+44:38
+44 minutes 38 seconds
+Understood.
+44:39
+44 minutes 39 seconds
+Thank you.
+44:40
+44 minutes 40 seconds
+Yeah.
+44:42
+44 minutes 42 seconds
+So Tim, anymore questions as a large sense for today?
+44:55
+44 minutes 55 seconds
+OK.
+44:55
+44 minutes 55 seconds
+So yeah.
+44:56
+44 minutes 56 seconds
+So please.
